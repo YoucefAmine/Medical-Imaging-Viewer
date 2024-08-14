@@ -1,7 +1,7 @@
 /** @type {AppTypes.Config} */
 
 window.config = {
-  routerBasename: '/',
+  routerBasename: '/DICOM_Visionneuse/',
   // whiteLabeling: {},
   extensions: [],
   modes: [],
