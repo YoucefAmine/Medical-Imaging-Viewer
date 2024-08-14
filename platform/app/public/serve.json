@@ -1,8 +1,10 @@
 {
-  "rewrites": [{ "source": "*", "destination": "index.html" }],
+  "rewrites": [
+    { "source": "/DICOM_Visionneuse/**", "destination": "/DICOM_Visionneuse/index.html" }
+  ],
   "headers": [
     {
-      "source": "**/*",
+      "source": "/DICOM_Visionneuse/**",
       "headers": [
         { "key": "Cross-Origin-Embedder-Policy", "value": "require-corp" },
         { "key": "Cross-Origin-Opener-Policy", "value": "same-origin" }
